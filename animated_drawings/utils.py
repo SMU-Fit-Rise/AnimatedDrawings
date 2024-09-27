@@ -19,6 +19,7 @@ def resolve_ad_filepath(file_name: str, file_type: str) -> Path:
     then by absolute, the relative to animated_drawings root directory.
     If not found, prints error message indicating which file_type it is.
     """
+    
     if Path(file_name).exists():
         return Path(file_name)
     elif Path.joinpath(Path.cwd(), file_name).exists():
