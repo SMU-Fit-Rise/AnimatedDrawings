@@ -1,0 +1,11 @@
+filepath: examples/bvh/rokoko/dumbbell_curl_shoulder_mixamo.bvh
+start_frame_idx: 10
+end_frame_idx: 226
+groundplane_joint: LeftFoot
+forward_perp_joint_vectors:
+  - - LeftShoulder
+    - RightShoulder
+  - - LeftUpLeg
+    - RightUpLeg
+scale: 0.00001
+up: +y

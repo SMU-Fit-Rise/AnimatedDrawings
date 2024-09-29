@@ -9,7 +9,6 @@ import logging
 import sys
 from pkg_resources import resource_filename
 
-
 def image_to_animation(img_fn: str, char_anno_dir: str, motion_cfg_fn: str, retarget_cfg_fn: str):
     """
     Given the image located at img_fn, create annotation files needed for animation.
